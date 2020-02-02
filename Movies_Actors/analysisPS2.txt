@@ -1,0 +1,54 @@
+Functions:
+	1) readActMovFile(self,fname):
+		n=Number of line in file
+		for reading a file= O(n)
+		to remove duplicates from ActMov "set" function is used, let say n elements in a list: O(n)-> if they uses extra space or O(nlog(n))
+		for building edges list= O(n*n)
+
+		total time= O(n)+O(nlogn)+O(n*n) = O(n*n)
+
+	2) displayActMov(self):
+		n = size of the edges list
+		mlist=O(n)
+		alist=O(n)
+		remDupli = O(n) or O(nlog(n))
+		getActororMovieName= O(1)
+		total time = O(n) + O(n) + O(n) + O(1)*n =O(n)
+
+	3) displayMoviesOfActor(self,actor):
+		n1 = size of ActMov list
+		n2 = size of edges list
+		actor id = O(n1)
+		list of movie = O(n2)
+		total time = O(n1) + O(n2)
+	
+	4) displayActorsOfMovie(self,movie):
+		n1 = size of ActMov list
+		n2 = size of edges list
+		mid = O(n1)
+		actList = O(n2)
+		total time O(n1) + O(n2)
+
+	5) findMovieRelation(self,movA,movB):
+		n1 = size of ActMov list
+		n2 = size of edges
+		midA = O(n1)
+		midB = O(n2)
+		actListA = O(n2)
+		actListB = O(n2)
+		p = len(actListA)
+		result = O(p)
+
+		total = O(n1)+O(n1)+O(n2)+O(n2)+O(p)
+	
+	
+	6) findMovieTransRelation(self,movA,movB):
+		n1 = size of ActMov list
+		n2 = size of edges
+		alistA = O(n1)
+		alistB = O(n2)
+		l=len(mlist)
+		f=O(l)
+		result=O(l)
+
+		total time= O(n1)++O(n2)+O(l)
