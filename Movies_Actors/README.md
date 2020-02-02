@@ -1,9 +1,9 @@
-# This is project is done for the fun#
+# This is project is done for the fun
 ### You have two files a input named inputPS2.txt and promptsPS2.txt.
 ### Your task is to get appropriate outputPS2.txt such that it contains the correct answers asked in promptsPS2.txt file using inputPS2.txt file.
 
 ## About the inputPS2.txt file ##
-###This is the input file we gathering data from this file. It contains the movie name with their actors acted, they are separated by the '/' character.
+### This is the input file we gathering data from this file. It contains the movie name with their actors acted, they are separated by the '/' character.
 
 
 ## About the promptPS2.txt file ##
