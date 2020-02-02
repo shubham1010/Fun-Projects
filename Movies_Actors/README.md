@@ -1,14 +1,14 @@
-#This is project is done for the fun#
-###You have two files a input named inputPS2.txt and promptsPS2.txt.
-###Your task is to get appropriate outputPS2.txt such that it contains the correct answers asked in promptsPS2.txt file using inputPS2.txt file.
+# This is project is done for the fun#
+### You have two files a input named inputPS2.txt and promptsPS2.txt.
+### Your task is to get appropriate outputPS2.txt such that it contains the correct answers asked in promptsPS2.txt file using inputPS2.txt file.
 
 ## About the inputPS2.txt file ##
 ###This is the input file we gathering data from this file. It contains the movie name with their actors acted, they are separated by the '/' character.
 
 
 ## About the promptPS2.txt file ##
-###This is also input file, It includes operations to find out using inputPS2.txt and stores that operations answer into outputPS2.txt file.
-###What kind of operations it has?
+### This is also input file, It includes operations to find out using inputPS2.txt and stores that operations answer into outputPS2.txt file.
+### What kind of operations it has?
 
 ### searchActor: actor name => It gives the name of movies in which actor acted.
 
